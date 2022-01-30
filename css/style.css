@@ -401,8 +401,8 @@ html, body{ height: 100%; }
     text-align: center;
 }
 .banner-cell {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+  
     color: #fff;
 }
 .banner-text h1 {

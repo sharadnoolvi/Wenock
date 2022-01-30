@@ -91,7 +91,7 @@
 		font-size: 50px;
 	}
 	.banner-cell .mouse{
-		display:none;
+		display:block;
 	}
 	.footer-box-a, .footer-box-b, .footer-box-c, .footer-box-d{
 		margin-bottom:20px;
