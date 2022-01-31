@@ -57,7 +57,7 @@
     SKELETON
 -------------------------------------------------------------------*/
 @font-face {
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
     src: url('../fonts/nautilus-webfont.woff2') format('woff2'),
          url('../fonts/nautilus-webfont.woff') format('woff');
     font-weight: normal;
@@ -360,7 +360,7 @@ html, body{ height: 100%; }
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: #202020;
+    background-color: #ffa57e;
     transition: 0.5s;
     padding: 10px 0 0 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -406,29 +406,30 @@ html, body{ height: 100%; }
     color: #fff;
 }
 .banner-text h1 {
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Lemondecourrier-Bold';
     letter-spacing: 2.7px;
     position: relative;
     display: inline-block;
 	font-size: 74px;
     line-height: 100px;
-	color:#fff;
-	padding-bottom: 0px;
+	color:#e75b1e;
+	padding-bottom: 10px;
 	padding-top:100px;
 }
 
 .banner-text h2 {
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Lemondecourrier-Bold';
     letter-spacing: 2.7px;
     position: relative;
-	font-size: 37px;
+	font-size:26px;
     line-height: 100px;
 	padding-bottom:25px;
+    color:white;
 }
 .banner-text p{
 	font-family: 'Roboto', sans-serif;
 	font-size:18px;
-	color:#ccc;
+	color:#e75b1e;
 	padding-bottom:35px;
 	margin:0px;
 }
@@ -604,7 +605,7 @@ html, body{ height: 100%; }
 
 .block-title{
 	font-size:52px;
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Lemondecourrier-Bold';
 	font-weight: bold;
 }
 
@@ -877,7 +878,7 @@ html, body{ height: 100%; }
 .offer-item div h3 {
     font-size: 20px;
     margin: 9px 0 0px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
     font-weight: 400;
     letter-spacing: .5px;
 }
@@ -977,8 +978,9 @@ html, body{ height: 100%; }
 }
 
 .text-col h3{
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Lemondecourrier-Bold';
 	font-size:28px;
+    color:#e75b1e;
 }
 
 .sf-team:hover .team-social {
@@ -1302,7 +1304,7 @@ html, body{ height: 100%; }
 }
 
 .pricing-main h2{
-	font-family: 'nautilus_pompiliusregular';
+	font-family: 'Lemondecourrier-Bold';
 	padding-bottom:30px;
 }
 
@@ -1576,17 +1578,11 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .ft-title {
     letter-spacing: 0.96px;
     margin-bottom: 22px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
 	font-size: 52px;
 }
 
-.footer-news p {
-    margin-bottom: 40px;
-    font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	color:#ffffff;
-	text-align:center;
-}
+
 
 .footer-news form{
 	max-width:650px;
@@ -1690,7 +1686,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-a h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
 }
 .footer-box-a p{
 	font-size: 14px;
@@ -1702,7 +1698,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-b h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
 }
 .footer-box-b p{
 	font-size: 14px;
@@ -1722,7 +1718,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-c h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
 }
 .footer-box-c p{
 	font-size: 14px;
@@ -1754,7 +1750,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 
 .footer-box-d h3{
 	font-size:24px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Lemondecourrier-Bold';
 }
 .footer-box-d p{
 	font-size: 14px;

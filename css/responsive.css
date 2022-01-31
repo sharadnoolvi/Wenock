@@ -167,7 +167,7 @@
     height: calc(31px * 4);
     margin: 70px auto 0px;
     background: none;
-    border: 2px solid white;
+    border: 2px solid #e75b1e;
     border-radius: calc(16px * 4);
   }
 }
