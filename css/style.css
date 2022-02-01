@@ -294,12 +294,12 @@ html, body{ height: 100%; }
 	height:inherit;
 }
 .main-menu .navbar-default .navbar-nav li a{
-	color:#fff;
+	color:#be0505;
 }
 .main-menu nav li a{
 	padding: 43px 0px 15px;
 	margin: 0 14px;
-	color: #fff;
+	color: #be0505;
 	font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.6px;
@@ -360,7 +360,7 @@ html, body{ height: 100%; }
     top: 0;
     left: 0;
     z-index: 999;
-    background-color: #ffa57e;
+    background-color: #fff;
     transition: 0.5s;
     padding: 10px 0 0 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -375,7 +375,7 @@ html, body{ height: 100%; }
 }
 
 .fixed-menu .main-menu nav li a{
-    padding: 32px 0px 10px 0;
+    padding: 22px 0px 10px 0;
 }
 
 /*------------------------------------------------------------------
@@ -488,7 +488,7 @@ html, body{ height: 100%; }
   height: calc(31px * 2);
   margin: 60px auto 20px;
   background: none;
-  border: 2px solid white;
+  border: 2px solid #e75b1e;
   border-radius: calc(16px * 2);
   z-index: 1;
 }
@@ -501,7 +501,7 @@ html, body{ height: 100%; }
   width: calc(4px * 2);
   height: calc(4px * 2);
   background: none;
-  border: 2px solid white;
+  border: 2px solid #e75b1e;
   border-radius: 100%;
   -webkit-animation-name: scrollWheel;
           animation-name: scrollWheel;
@@ -586,9 +586,7 @@ html, body{ height: 100%; }
     ABOUT AREA
 -------------------------------------------------------------------*/
 
-.about-main{
-	background:#E6E6E6;
-}
+
 .pad-top-100{
     padding-top: 90px;
 }
@@ -626,24 +624,16 @@ html, body{ height: 100%; }
 
 
 .about-images img {
-    border: 10px solid #f1f1f1;
+  
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    border-radius: 999px;
-}
-
-.about-images img {
-    border: 10px solid #f1f1f1;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    border-radius: 999px;
-	max-width: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+	max-width: 80%;
+    padding-top: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px;
 }
 
 .about-inset {
@@ -1653,9 +1643,9 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     padding: 4px;
 }
 .footer-box {
-	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
+	background-image:-moz-radial-gradient(center, ellipse cover, rgb(146 143 143 / 57%) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
 	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
+    background-image: radial-gradient(ellipse at center, rgb(172 169 169 / 57%) 0%,rgb(90 63 63 / 87%) 100%), url(../images/footer_background.jpg);
 	background-color:#111;background-position:center;background-repeat:no-repeat;background-size:cover
 	}
 .socials-box li {

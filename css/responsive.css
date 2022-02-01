@@ -139,7 +139,7 @@
 
    .navbar-collapse.collapse.in {  /* NEW */
         display: block!important; 
-		background: #202020;
+		background: #fff;
     }
 	.main-menu nav li a{
 		padding: 15px 0px;
@@ -184,7 +184,7 @@
 		top: 35px;
 	}
 	.navbar-nav{
-		background: #202020;
+		background: #fff;
 		margin: 0px 0px;
 	}
 	.banner {
