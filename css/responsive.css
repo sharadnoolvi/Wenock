@@ -66,8 +66,16 @@
 	.main-menu nav li a{
 		margin: 0 7px;
 	}
+	.banner h3 {
+		padding-top: 250px;
+		
+	}
 }
 @media (max-width: 1120px) {
+	.banner h3 {
+		padding-top: 250px;
+		
+	}
 	.main-menu nav li a{
 		margin: 0px 10px;
 		font-size: 12px;
@@ -89,6 +97,10 @@
 @media (max-width: 992px) {
 	.banner-text h1{
 		font-size: 50px;
+	}
+	.banner h3 {
+		padding-top: 250px;
+		
 	}
 	.banner-cell .mouse{
 		display:block;
@@ -155,6 +167,10 @@
     width: 55%;
     margin: 50 auto;
 	}
+	.banner h3 {
+		padding-top: 250px;
+		font-size:28px;
+	}
 .banner-cell .mouse:after {
     position: absolute;
     top: 25px;
@@ -175,6 +191,10 @@
     .gal-container .modal-content{
         height:250px;
     }
+	.banner h3 {
+		padding-top: 150px;
+		
+	}
 }
 @media (max-width: 768px) {
 	.main-menu nav li a{
@@ -188,8 +208,13 @@
 		margin: 0px 0px;
 	}
 	.banner {
-		min-height: 800px !important;
+		min-height: 300px !important;
 		background-size: inherit;
+
+	}
+	.banner h3 {
+		padding-top: 150px;
+		
 	}
 	.team-main{
 		background-size: inherit;
