@@ -291,3 +291,15 @@ div .card .image img{
   color: #e75b1e;
 }
 
+@media (max-width: 768px) {
+  div .card .card-content{
+    margin: 20px 0 10px 0;
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media (max-width: 600px) {
+  div .card .card-content{
+    /* margin: 20px 0 10px 0; */
+    width: 100%;
+  }
+}
