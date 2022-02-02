@@ -69,6 +69,7 @@ body{
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
 	line-height:1.80857;
+   
 }
 
 a {
@@ -484,8 +485,8 @@ html, body{ height: 100%; }
 
 .banner-cell .mouse {
   position: relative;
-  width: calc(16px * 2);
-  height: calc(31px * 2);
+  width: calc(24px * 2);
+  height: calc(58px * 2);
   margin: 60px auto 20px;
   background: none;
   border: 2px solid #e75b1e;
