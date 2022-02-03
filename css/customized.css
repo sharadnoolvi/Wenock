@@ -39,6 +39,7 @@
   font-size:36px;
   font-weight: 700;
   
+  
 }
 .Head3-small{
   font-family: Lemondecourrier-Demi;
@@ -66,6 +67,8 @@ font-weight: 700;
     font-size:1.25em;
     font-weight:400;
     line-height:1.3333333333;
+    text-align: justify;
+     text-justify: inter-word;
 }
 .sub2{
     font-family: Roboto-Regular;
@@ -74,6 +77,8 @@ font-weight: 700;
     font-size:1.25em;
     font-weight:400;
     line-height:1.3333333333;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .sub3{
   font-family: Karla;
@@ -81,6 +86,8 @@ font-weight: 700;
   font-size:1.10em;
   font-weight:400;
   line-height:1.3333333333;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .font-bold{
     font-weight:1700;
@@ -134,6 +141,8 @@ font-weight: 700;
         font-size:1.25em;
         font-weight:400;
         line-height:1.3333333333;
+        text-align: justify;
+         text-justify: inter-word;
     }
     .sub2{
         font-family: Roboto-Regular;
@@ -142,6 +151,8 @@ font-weight: 700;
         font-size:1.25em;
         font-weight:400;
         line-height:1.3333333333;
+        text-align: justify;
+        text-justify: inter-word;
     }
     .font-bold{
         font-weight:700;
