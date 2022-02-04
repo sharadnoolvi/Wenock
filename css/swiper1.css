@@ -9,9 +9,7 @@
   
 
 .swiper{
-  width: 560px; 
-  overflow-x: scroll;
-
+  width: 100%;  
 }
 
 .card{
@@ -157,52 +155,6 @@
  
 }
 @media (max-width: 480px) {
-  .swiper{
-    width: 560px;  
-    overflow-x: scroll;
-  }
-  .card::before{
-    content: "";
-    position: absolute;
-    height: 20%;
-    width: 100%;
-    background: #e75b1e;
-    border-radius: 20px 20px 0 0;
-  }
-  
-  .card .card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-    position: relative;
-    z-index: 100;
-   
-  }
-  
-.row .card .image{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  padding: 3px;
-  background: #e75b1e;
-}
-.card .name-profession{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5px;
-  color: #e75b1e;
-} 
 
-.name-profession .name{
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.name-profession .profession{
-  font-size:10px;
-  font-weight: 500;
-}
 
 }
