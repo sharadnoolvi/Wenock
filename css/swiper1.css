@@ -11,7 +11,7 @@ body{
   -webkit-overflow-scrolling: touch;
 }
 .swiper{
-  width: 560px;  
+  width: 950px;  
 
 }
 
@@ -27,7 +27,7 @@ body{
 .card::before{
   content: "";
   position: absolute;
-  height: 20%;
+  height: 40%;
   width: 100%;
   background: #e75b1e;
   border-radius: 20px 20px 0 0;
@@ -84,19 +84,20 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 10px;
   color: #e75b1e;
 } 
 
 .name-profession .name{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .name-profession .profession{
-  font-size:10px;
+  font-size:15px;
   font-weight: 500;
 }
+
 .card .rating{
   display: flex;
   align-items: center;
