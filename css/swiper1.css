@@ -7,7 +7,9 @@
     align-items: center;
   }
   
-
+body{
+  -webkit-overflow-scrolling: touch;
+}
 .swiper{
   width: 950px;  
 }
