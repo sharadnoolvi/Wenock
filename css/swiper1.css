@@ -152,3 +152,16 @@ body{
   opacity: 1;
   color: #e75b1e;
 }
+
+@media (max-width: 600px) {
+  .swiper{
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  .swiper{
+   
+    width: 900px;  
+    overflow-x: hidden;
+  }
+}
