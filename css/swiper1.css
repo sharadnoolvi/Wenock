@@ -12,6 +12,7 @@ body{
 }
 .swiper{
   width: 950px;  
+  overflow-x: scroll;
 
 }
 
@@ -160,7 +161,7 @@ body{
 @media (max-width: 480px) {
   .swiper{
     width: 560px;  
-  
+    overflow-x: scroll;
   }
   .card::before{
     content: "";
