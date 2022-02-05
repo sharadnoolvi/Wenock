@@ -6,11 +6,7 @@
     display: flex;
     align-items: center;
   }
-  
 
-.swiper{
-  width: 100%;  
-}
 
 .card{
   position: relative;
@@ -151,10 +147,26 @@
   color: #e75b1e;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .swiper-slide .card-content{
+    width: 100%;
+    display: block;
+  } 
  
-}
-@media (max-width: 480px) {
 
+  }
+  @media (max-width: 600px) {
+    .swiper-slide .card-content{
+      width: 100%;
+      display: block;
+    } 
+  
+  }
+@media (max-width: 480px) {
+  .swiper-slide .card-content{
+    width: 100%;
+    display: block;
+  } 
+ 
 
 }
