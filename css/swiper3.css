@@ -79,7 +79,7 @@
  }
  .owl-theme .owl-controls .owl-page.active span,
  .owl-theme .owl-controls.clickable .owl-page:hover span{
-    background: #ffd9b8;
+    background:white;
     border-color: #e75b1e;
  }
     .pic img{
