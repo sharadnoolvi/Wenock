@@ -1519,11 +1519,11 @@ html, body{ height: 100%; }
 
 .reserve-book-btn button  {
     color: #fff;
-    min-width: 219px;
+    min-width: 150px;
     padding: 10.5px 20px;
     display: inline-block;
     text-align: center;
-    font-weight: 800;
+   
     text-transform: uppercase;
     font-size: 18px;
 }
