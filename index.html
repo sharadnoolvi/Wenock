@@ -86,20 +86,28 @@
         <div id="status"></div>
     </div>
     <div id="site-header">
-        <header id="header" class="header-block-top">
+        <header id="header" class="header-block-top"> 
             <div class="container">
                 <div class="row">
                     <div class="main-menu">
                         <!-- navbar -->
                         <nav class="navbar navbar-default" id="mainNav">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                               
+                                <button id="ChangeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                                     data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <div id="navbar-hamburger">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
+                                </div>
+                                <div id="navbar-close" class="hidden">
+                                    <span class="fa fa-2x fa-times faa faa-wrench animated" style="color: #e75b1e;font-size: 30px;"></span>
+                                  </div>
                                 </button>
+                               
+
                                 <div class="logo">
                                     <a class="navbar-brand js-scroll-trigger logo-header" href="#">
                                         <img src="images/WebLogo.png" alt="">
@@ -210,10 +218,16 @@
     </div>
 
 
+
     <div id="about" class="menu-main pad-top-200 pad-bottom-100">
         <div class="container">
 
             <br>
+            <br>
+            <br>
+            <br>
+            
+            
             <div class="row text-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
@@ -656,6 +670,11 @@
 
     <div id="CATERER" class="gallery-main pad-bottom-100">
         <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
@@ -1090,7 +1109,10 @@
     <hr>
     <div id="FAQ" style="padding-bottom: 30px;">
         <div class="container">
-
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="row">
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1250,6 +1272,10 @@
     <hr>
     <div id="Contact" class="reservations-main" style="padding-top: 30px;padding-bottom:30px;">
         <div class="container-fluid">
+            <br>
+            <br>
+            <br>
+            
             <div class="row">
                 <div class="form-reservations-box">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1484,7 +1510,10 @@
                 $("#email").val("");
             }
         });
-
+            $('#ChangeToggle').click(function () {
+                $('#navbar-hamburger').toggleClass('hidden');
+                $('#navbar-close').toggleClass('hidden');
+            });
         $("#btnSignup").click(function(){
             if($("#Reg_FullName").val()==""){
                 alert("full name required");
@@ -1510,9 +1539,7 @@
                     Subject: $("#Reg_FullName").val() + " is trying for Signup",
                     Body: $("#Reg_FullName").val() +"-" +$("#Reg_MobileNo").val() + " trying to signup",
                 }).then(message => alert("Signup request has been sent. we will get back to you"));
-                $("#Reg_FullName").val("");
-                $("#Reg_Email").val("");
-                $("#Reg_MobileNo").val("");
+              
 
                 $("#Signup").modal('hide');
             }
