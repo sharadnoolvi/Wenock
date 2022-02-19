@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Lemondecourrier-Bold;
+    src: url(../fonts/LeMondeCourrierPro-Bold.otf);
+}
+@font-face {
+    font-family: Lemondecourrier-Demi;
+    src: url(../fonts/LeMondeCourrierPro-Demi.otf);
+}
+@font-face {
+    font-family: Karla;
+    src: url(../fonts/Karla.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Bold.ttf);
+}
+.about-images img{
+  border-radius: 25px;
+  max-width: 80%;
+}
+.Welcome{
+  font-family:Lemondecourrier-Bold;
+color:#000;
+font-size:38px;
+font-weight: bold;
+line-height: 1.2em;
+}
+.Head1{
+    font-family:Lemondecourrier-Bold;
+  color:#ff2700;
+  font-size:38px;
+  font-weight: bold;
+}
+
+.Head2{
+    font-family:Quicksand;  
+    color:#ff2700;
+  font-weight: 700;
+}
+
+.Head3{
+    font-family: Lemondecourrier-Demi;
+    color:#ff2700;
+  font-size:28px;
+  font-weight: 700;
+  
+  
+}
+.Head3-small{
+  font-family: Lemondecourrier-Demi;
+  color:#ff2700;
+font-size:18px;
+font-weight: 700;
+
+}
+.Head3-xs{
+  font-family: Lemondecourrier-Demi;
+  color:#ff2700;
+font-size:16px;
+font-weight: 100;
+
+}
+.Head4{
+    font-family:Lemondecourrier-Demi;
+  color:#ff2700;
+  font-size:26px;
+  font-weight: bold;
+}
+.sub1{
+    font-family: Karla;
+    /* color:#666c73; */
+    color:#000;
+    font-size:1.2em;
+    font-weight:400;
+    line-height:1.3333333333;
+    text-align: justify;
+   
+}
+
+.sub2{
+    font-family: Roboto-Regular;
+   
+    color:#000;
+    font-size:1.1em;
+    font-weight:400;
+    line-height:1.3333333333;
+    text-align: justify;
+  
+}
+
+.sub3{
+  font-family: Karla;
+  color:#000;
+  font-size:1.1em;
+  font-weight:400;
+  line-height:1.3333333333;
+  text-align: justify;
+
+}
+.sub4{
+  font-family: Quicksand;
+  color:#000;
+  font-size:1.1em;
+  font-weight:400;
+  line-height:1.3333333333;
+  text-align: justify;
+ 
+}
+.sub1-center{
+  font-family: Karla;
+  color:#666c73;
+  font-size:1.1em;
+  font-weight:400;
+  line-height:1.3333333333;
+  text-align: center;
+  
+}
+.font-bold{
+    font-weight:1700;
+}
+.headline {
+    font-size: 54px;
+    line-height: 1.125;
+}
+
+.wizard{
+  padding:10px 10px 10px 10px;
+  background-color:#e75b1e;
+  border-radius: 2%;
+  box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+	
+}
+@media (max-width: 480px) {
+  .Welcome{
+    font-family:Lemondecourrier-Bold;
+  color:#000;
+  font-size:22px;
+  font-weight: bold;
+  line-height: 1.2em;
+  }
+  .banner h3 {
+		padding-top: 100px;
+		
+	}
+	.Head1{
+        font-family:Lemondecourrier-Bold;
+      color:#e75b1e;
+      font-size:12px;
+      font-weight: bold;
+    }
+    
+    .Head2{
+        font-family:Quicksand;  
+        color:#e75b1e;
+      font-size:12px;
+      font-weight: 700;
+    }
+    
+    .Head3{
+        font-family: Lemondecourrier-Demi;
+        color:#e75b1e;
+      font-size:18px;
+      font-weight: 700;
+      
+    }
+    .Head4{
+        font-family:Lemondecourrier-Demi;
+      color:#e75b1e;
+      font-size:20px;
+      font-weight: bold;
+    }
+    .sub1{
+        font-family: Karla;
+        color:#000;
+        font-size:1.2em;
+        font-weight:400;
+        line-height:1.3333333333;
+        text-align: justify;
+       
+    }
+    .sub2{
+        font-family: Roboto-Regular;
+       
+        color:#000;
+        font-size:1.1em;
+        font-weight:400;
+        line-height:1.3333333333;
+        text-align: justify;
+       
+    }
+    .font-bold{
+        font-weight:700;
+    }
+}
+
+
