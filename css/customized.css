@@ -18,24 +18,33 @@
     font-family: Quicksand;
     src: url(../fonts/Quicksand-Bold.ttf);
 }
-
+.about-images img{
+  border-radius: 25px;
+  max-width: 80%;
+}
+.Welcome{
+  font-family:Lemondecourrier-Bold;
+color:#000;
+font-size:38px;
+font-weight: bold;
+line-height: 1.2em;
+}
 .Head1{
     font-family:Lemondecourrier-Bold;
-  color:#e75b1e;
-  font-size:32px;
+  color:#ff2700;
+  font-size:38px;
   font-weight: bold;
 }
 
 .Head2{
     font-family:Quicksand;  
-    color:#e75b1e;
-  font-size:32px;
+    color:#ff2700;
   font-weight: 700;
 }
 
 .Head3{
     font-family: Lemondecourrier-Demi;
-    color:#e75b1e;
+    color:#ff2700;
   font-size:28px;
   font-weight: 700;
   
@@ -43,21 +52,21 @@
 }
 .Head3-small{
   font-family: Lemondecourrier-Demi;
-  color:#e75b1e;
+  color:#ff2700;
 font-size:18px;
 font-weight: 700;
 
 }
 .Head3-xs{
   font-family: Lemondecourrier-Demi;
-  color:#e97340;
+  color:#ff2700;
 font-size:16px;
 font-weight: 100;
 
 }
 .Head4{
     font-family:Lemondecourrier-Demi;
-  color:#e75b1e;
+  color:#ff2700;
   font-size:26px;
   font-weight: bold;
 }
@@ -65,12 +74,13 @@ font-weight: 100;
     font-family: Karla;
     /* color:#666c73; */
     color:#000;
-    font-size:1.1em;
+    font-size:1.2em;
     font-weight:400;
     line-height:1.3333333333;
     text-align: justify;
-     text-justify: inter-word;
+   
 }
+
 .sub2{
     font-family: Roboto-Regular;
    
@@ -79,8 +89,9 @@ font-weight: 100;
     font-weight:400;
     line-height:1.3333333333;
     text-align: justify;
-    text-justify: inter-word;
+  
 }
+
 .sub3{
   font-family: Karla;
   color:#000;
@@ -88,7 +99,7 @@ font-weight: 100;
   font-weight:400;
   line-height:1.3333333333;
   text-align: justify;
-  text-justify: inter-word;
+
 }
 .sub4{
   font-family: Quicksand;
@@ -97,7 +108,7 @@ font-weight: 100;
   font-weight:400;
   line-height:1.3333333333;
   text-align: justify;
-  text-justify: inter-word;
+ 
 }
 .sub1-center{
   font-family: Karla;
@@ -106,7 +117,7 @@ font-weight: 100;
   font-weight:400;
   line-height:1.3333333333;
   text-align: center;
-   text-justify: inter-word;
+  
 }
 .font-bold{
     font-weight:1700;
@@ -127,6 +138,17 @@ font-weight: 100;
 	
 }
 @media (max-width: 480px) {
+  .Welcome{
+    font-family:Lemondecourrier-Bold;
+  color:#000;
+  font-size:22px;
+  font-weight: bold;
+  line-height: 1.2em;
+  }
+  .banner h3 {
+		padding-top: 100px;
+		
+	}
 	.Head1{
         font-family:Lemondecourrier-Bold;
       color:#e75b1e;
@@ -157,11 +179,11 @@ font-weight: 100;
     .sub1{
         font-family: Karla;
         color:#000;
-        font-size:1.1em;
+        font-size:1.2em;
         font-weight:400;
         line-height:1.3333333333;
         text-align: justify;
-         text-justify: inter-word;
+       
     }
     .sub2{
         font-family: Roboto-Regular;
@@ -171,7 +193,7 @@ font-weight: 100;
         font-weight:400;
         line-height:1.3333333333;
         text-align: justify;
-        text-justify: inter-word;
+       
     }
     .font-bold{
         font-weight:700;
