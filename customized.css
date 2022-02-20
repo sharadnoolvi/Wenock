@@ -31,20 +31,21 @@ line-height: 1.2em;
 }
 .Head1{
     font-family:Lemondecourrier-Bold;
-  color:#ff2700;
+  /* color:#ff2700; */
+  color:#000;
   font-size:38px;
   font-weight: bold;
 }
 
 .Head2{
     font-family:Quicksand;  
-    color:#ff2700;
+    color:#000;
   font-weight: 700;
 }
 
 .Head3{
     font-family: Lemondecourrier-Demi;
-    color:#ff2700;
+    color:#000;
   font-size:28px;
   font-weight: 700;
   
@@ -52,21 +53,21 @@ line-height: 1.2em;
 }
 .Head3-small{
   font-family: Lemondecourrier-Demi;
-  color:#ff2700;
+  color:#000;
 font-size:18px;
 font-weight: 700;
 
 }
 .Head3-xs{
   font-family: Lemondecourrier-Demi;
-  color:#ff2700;
+  color:#000;
 font-size:16px;
 font-weight: 100;
 
 }
 .Head4{
     font-family:Lemondecourrier-Demi;
-  color:#ff2700;
+    color:#000;
   font-size:26px;
   font-weight: bold;
 }
@@ -152,28 +153,28 @@ font-weight: 100;
 	}
 	.Head1{
         font-family:Lemondecourrier-Bold;
-      color:#e75b1e;
+        color:#000;
       font-size:12px;
       font-weight: bold;
     }
     
     .Head2{
         font-family:Quicksand;  
-        color:#e75b1e;
+        color:#000;
       font-size:12px;
       font-weight: 700;
     }
     
     .Head3{
         font-family: Lemondecourrier-Demi;
-        color:#e75b1e;
+        color:#000;
       font-size:18px;
       font-weight: 700;
       
     }
     .Head4{
         font-family:Lemondecourrier-Demi;
-      color:#e75b1e;
+        color:#000;
       font-size:20px;
       font-weight: bold;
     }
