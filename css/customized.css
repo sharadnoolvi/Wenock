@@ -151,28 +151,28 @@ font-weight: 100;
 	}
 	.Head1{
         font-family:Lemondecourrier-Bold;
-      color:#e75b1e;
+        color:#000;
       font-size:12px;
       font-weight: bold;
     }
     
     .Head2{
         font-family:Quicksand;  
-        color:#e75b1e;
+        color:#000;
       font-size:12px;
       font-weight: 700;
     }
     
     .Head3{
         font-family: Lemondecourrier-Demi;
-        color:#e75b1e;
+        color:#000;
       font-size:18px;
       font-weight: 700;
       
     }
     .Head4{
         font-family:Lemondecourrier-Demi;
-      color:#e75b1e;
+        color:#000;
       font-size:20px;
       font-weight: bold;
     }
