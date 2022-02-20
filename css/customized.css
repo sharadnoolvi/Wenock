@@ -156,28 +156,28 @@ font-weight: 100;
 	.Head1{
         font-family:Lemondecourrier-Bold;
         color:#000;
-      font-size:12px;
+      font-size:14px;
       font-weight: bold;
     }
     
     .Head2{
         font-family:Quicksand;  
         color:#000;
-      font-size:12px;
+      font-size:14px;
       font-weight: 700;
     }
     
     .Head3{
         font-family: Lemondecourrier-Demi;
         color:#000;
-      font-size:18px;
+      font-size:20px;
       font-weight: 700;
       
     }
     .Head4{
         font-family:Lemondecourrier-Demi;
         color:#000;
-      font-size:20px;
+      font-size:22px;
       font-weight: bold;
     }
     .sub1{
