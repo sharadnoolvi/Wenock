@@ -148,7 +148,11 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
+	.navbar-nav>ul>li>a>i{
+		float: none;
+		display: block;
+	  }
+	 
    .navbar-collapse.collapse.in {  /* NEW */
         display: block!important; 
 		background: #fff;
